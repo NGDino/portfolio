@@ -1,3 +1,124 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      color: slategray;
+  }
+
+ 
+header {
+    background-color: #443f3fe3;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    font-family: impact, charcoal, sans-serif;
+}  
+
+header h1 {
+    font-weight: bold;
+    font-size: 44px;
+    margin: 0;
+    background-color: lightgray;
+    color: slategray;
+    width: 25%;
+    direction: rtl;
+    padding: 5px 10px 5px 0;
+    justify-content: flex-start;
+    }
+
+header a {
+    text-decoration: none;
+    color: lightgrey;
+    
+  }
+
+header a:hover {
+    color: slategray;
+    text-decoration: underline;
 }
+
+section {
+    padding: 30px;
+    display: flex;
+  }
+
+header nav{
+    margin: 7px 0;
+  }
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+  /* hero having issues with sizing */
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+    padding: 60px;
+    height: 75%;
+}
+  
+/* about me section */
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-header {
+    font-size: 38px;
+    color: slategray;
+    width: 25%;
+    border-right: slategray 3px solid;
+    margin-right: 40px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.section-main {
+    width: 70%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+.section-main p {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* contact me section */
+
+.contact a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:slategray;
+}
+
+.contact a:hover {
+    color: slategray;
+    text-decoration: underline;
+}
+
