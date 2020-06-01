@@ -93,7 +93,7 @@ header nav ul {
 
 }
 
-.section-header {
+.section-title {
     font-size: 38px;
     color: slategray;
     width: 25%;
@@ -185,6 +185,7 @@ header nav ul {
     bottom:0;
     right:0;
     background-color: silver;
+    opacity: .65;
     margin: 5px;
     padding: 0;
     
@@ -198,8 +199,38 @@ header nav ul {
     color:slategray;
 }
 
-.contact a:hover {
-    color: slategray;
+.contact a:hover{
+    color: lightgray;
     text-decoration: underline;
 }
 
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+    header nav ul li a {
+      font-size: 20px;
+    }
+    .hero h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .basic-info {
+        align-items: center;
+    }
+
+}
+
+
+    
