@@ -164,7 +164,7 @@ header nav ul {
 }
 
 .project4 {
-    background-image: url(../images/coming-soon.jpg);
+    background-image: url(../images/safr.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -194,7 +194,7 @@ header nav ul {
     
 }
 
-.project1:hover{
+.grid-item:hover{
     cursor: pointer;
 }
 
