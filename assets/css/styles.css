@@ -148,10 +148,6 @@ header nav ul {
     background-size: cover;
 }
 
-.project1:hover{
-    cursor: pointer;
-}
-
 
 .project2 {
     background-image: url(../images/solar-beat.png);
@@ -170,7 +166,7 @@ header nav ul {
 }
 
 .project4 {
-    background-image: url(../images/run-buddy.jpg);
+    background-image: url(../images/safr.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -200,7 +196,7 @@ header nav ul {
     
 }
 
-.project1:hover{
+.grid-item:hover{
     cursor: pointer;
 }
 
